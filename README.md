@@ -5,6 +5,9 @@
 ## list.append → array.push
 <table>
 <tr>
+Python
+</tr>
+<tr>
 <td>
 
   ```python
@@ -13,6 +16,9 @@
   print(lista)
   ```
 </td>
+<tr>
+Nodejs
+</tr>
 <td>
 
   ```javascript
@@ -21,9 +27,12 @@
   console.log(lista);
   ```
 </td>
+<tr>
+Output
+</tr>
 <td>
   <p>
-  [ 1, 2, 3, 4 ]
+  <strong>[ 1, 2, 3, 4 ]</strong>
   </p>
 </td>
 </tr>
