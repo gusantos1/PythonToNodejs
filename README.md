@@ -27,7 +27,7 @@ Nodejs
 Output
 
   ```javascript
-  consolog.log([ 1, 2, 3, 4 ]);
+  console.log([ 1, 2, 3, 4 ]);
   ```
 </td>
 </tr>
