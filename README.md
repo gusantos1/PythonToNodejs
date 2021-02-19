@@ -24,7 +24,8 @@ Nodejs
   ```
 </td>
 <td>
-<p style="text-align:center">Output
+<p style="text-align:center">Output<br>
+
   ```
   [ 1, 2, 3, 4 ]
   ```
