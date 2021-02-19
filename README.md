@@ -24,10 +24,12 @@ Nodejs
   ```
 </td>
 <td>
-Output
+Nodejs
 
   ```javascript
-  [ 1, 2, 3, 4 ]
+  const lista = [1, 2 , 3];
+  lista.push(4);
+  console.log(lista);
   ```
 </td>
 </tr>
