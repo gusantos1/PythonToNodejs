@@ -4,15 +4,8 @@
 
 ## list.append → array.push
 |Python|Nodejs|
-|--------|--------|
-a
-```python
-lista = [1, 2 , 3]
-lista.append(4)
-print(lista)
-```
-```javascript
-const lista = [1, 2 , 3];
-lista.push(4);
-console.log(lista);
-```
+|-------------------|----------------------------|
+<code>python        |   <code>javascript
+lista = [1, 2 , 3]  |   const lista = [1, 2 , 3];
+lista.append(4)     |   lista.push(4);
+print(lista)        |   console.log(lista);
