@@ -7,7 +7,7 @@
 <table>
 <tr>
 <td>
-<p>Python</p>
+Python
 
   ```python
   lista = [1, 2 , 3]
@@ -25,7 +25,7 @@
   ```
 </td>
 <td>
-<p><strong>Output</strong>
+<p align="center"><strong>Output</strong>
 
   ```
   [ 1, 2, 3, 4 ]
