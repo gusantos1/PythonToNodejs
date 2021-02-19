@@ -26,9 +26,7 @@ Nodejs
 <td>
 Output
 
-  ```javascript
-
-
+  ```
   [ 1, 2, 3, 4 ]
   ```
 </td>
