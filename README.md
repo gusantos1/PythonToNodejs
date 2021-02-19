@@ -5,8 +5,8 @@
 ## list.append → array.push
 <table>
 <tr>
-Python Node Output
 <td>
+Python
 
   ```python
   lista = [1, 2 , 3]
@@ -15,6 +15,7 @@ Python Node Output
   ```
 </td>
 <td>
+Nodejs
 
   ```javascript
   const lista = [1, 2 , 3];
@@ -23,6 +24,7 @@ Python Node Output
   ```
 </td>
 <td>
+Output
   <p>
   <strong>[ 1, 2, 3, 4 ]</strong>
   </p>
