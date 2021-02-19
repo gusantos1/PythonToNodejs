@@ -7,7 +7,7 @@
 <table>
 <tr>
 <td>
-<img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="30%">
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
 
   ```python
   lista = [1, 2 , 3]
