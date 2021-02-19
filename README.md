@@ -3,11 +3,11 @@
 # Listas - Arrays <img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/books.svg" width="30">
 
 <div align="center">
-list.append → array.push
+<h2>list.append → array.push</h2>
 <table>
 <tr>
 <td>
-<p align="center">Python</p>
+<p>Python</p>
 
   ```python
   lista = [1, 2 , 3]
@@ -16,7 +16,7 @@ list.append → array.push
   ```
 </td>
 <td>
-<p align="center">Nodejs</p>
+<p>Nodejs</p>
 
   ```javascript
   const lista = [1, 2 , 3];
@@ -25,7 +25,7 @@ list.append → array.push
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p><strong>Output</strong>
 
   ```
   [ 1, 2, 3, 4 ]
