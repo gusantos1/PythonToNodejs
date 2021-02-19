@@ -24,7 +24,7 @@ Nodejs
   ```
 </td>
 <td>
-Output
+Saída
 
   ```javascript
   [ 1, 2, 3, 4 ]
