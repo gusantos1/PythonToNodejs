@@ -21,5 +21,8 @@
   console.log(lista);
   ```
 </td>
+<td>
+  <h2>Output</h2>: <code>[ 1, 2, 3, 4 ]
+</td>
 </tr>
 </table>
