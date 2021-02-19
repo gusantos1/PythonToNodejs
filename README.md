@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td>
-Python
+<p align="center">Python</p>
 
   ```python
   lista = [1, 2 , 3]
@@ -15,7 +15,7 @@ Python
   ```
 </td>
 <td>
-Nodejs
+<p align="center">Nodejs</p>
 
   ```javascript
   const lista = [1, 2 , 3];
@@ -24,7 +24,7 @@ Nodejs
   ```
 </td>
 <td>
-<p align="center">Output
+<p align="center"><strong>Output</strong>
 
   ```
   [ 1, 2, 3, 4 ]
