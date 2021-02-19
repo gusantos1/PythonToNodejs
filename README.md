@@ -25,9 +25,9 @@ Nodejs
 </td>
 <td>
 Output
-  <p>
+
   <strong>[ 1, 2, 3, 4 ]</strong>
-  </p>
+  
 </td>
 </tr>
 </table>
