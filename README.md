@@ -27,7 +27,7 @@ Nodejs
 Output
 
   ```javascript
-  [ 1, 2, 3, 4 ];
+  const lista = [ 1, 2, 3, 4 ];
   ```
 </td>
 </tr>
