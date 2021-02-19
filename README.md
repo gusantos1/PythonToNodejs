@@ -16,7 +16,7 @@
   ```
 </td>
 <td>
-<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="30%"></p>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
 
   ```javascript
   const lista = [1, 2 , 3];
