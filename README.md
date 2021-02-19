@@ -4,7 +4,8 @@
 
 ## list.append → array.push
 |Python|Nodejs|
-|----|----|
+|--------|--------|
+a
 ```python
 lista = [1, 2 , 3]
 lista.append(4)
