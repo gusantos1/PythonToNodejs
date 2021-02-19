@@ -7,7 +7,7 @@
 <table>
 <tr>
 <td>
-<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="40%"></p>
 
   ```python
   lista = [1, 2 , 3]
@@ -16,7 +16,7 @@
   ```
 </td>
 <td>
-<p align="center">Nodejs</p>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="40%"></p>
 
   ```javascript
   const lista = [1, 2 , 3];
