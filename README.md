@@ -24,12 +24,12 @@ Nodejs
   ```
 </td>
 <td>
-<div style="text-align:center">Output<br>
+<center>Output
 
   ```
   [ 1, 2, 3, 4 ]
   ```
-  </div>
+  </p></center>
 </td>
 </tr>
 </table>
