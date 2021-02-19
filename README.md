@@ -24,10 +24,10 @@ Nodejs
   ```
 </td>
 <td>
-Saída
+Output
 
   ```javascript
-  [ 1, 2, 3, 4 ]
+  [ 1, 2, 3, 4 ];
   ```
 </td>
 </tr>
