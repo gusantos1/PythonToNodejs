@@ -22,7 +22,9 @@
   ```
 </td>
 <td>
-  <h4>Output</h4><code>[ 1, 2, 3, 4 ]</code>
+  <p>
+  [ 1, 2, 3, 4 ]
+  </p>
 </td>
 </tr>
 </table>
