@@ -26,8 +26,9 @@ Nodejs
 <td>
 Output
 
-  <strong>[ 1, 2, 3, 4 ]</strong>
-  
+  ```
+  [ 1, 2, 3, 4 ]
+  ```
 </td>
 </tr>
 </table>
