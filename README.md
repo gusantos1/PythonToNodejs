@@ -7,7 +7,7 @@
 <table>
 <tr>
 <td>
-Python
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="20"></p>
 
   ```python
   lista = [1, 2 , 3]
@@ -16,7 +16,7 @@ Python
   ```
 </td>
 <td>
-<p>Nodejs</p>
+<p align="center">Nodejs</p>
 
   ```javascript
   const lista = [1, 2 , 3];
