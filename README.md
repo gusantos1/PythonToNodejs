@@ -27,7 +27,7 @@ Nodejs
 Output
 
   ```javascript
-  const lista = [ 1, 2, 3, 4 ];
+  consolog.log([ 1, 2, 3, 4 ]);
   ```
 </td>
 </tr>
