@@ -25,12 +25,12 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output
 
   ```
-  [ 1, 2, 3, 4 ]
+  [1, 2, 3, 4]
   ```
-  </p>
+  </strong></p>
 </td>
 </tr>
 </table>
