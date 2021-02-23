@@ -73,7 +73,7 @@
 
 
 <div align="center">
-<h2>list.[index] ↔ array.[index]</h2>
+<h2>list[index] ↔ array[index]</h2>
 <table>
 <tr>
 <td>
@@ -108,7 +108,7 @@
 
 
 <div align="center">
-<h2>list.[index] ↔ array.[index]</h2>
+<h2>del list[index] ↔ delete array[index]</h2>
 <table>
 <tr>
 <td>
