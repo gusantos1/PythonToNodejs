@@ -26,13 +26,13 @@
 </td>
 <td>
 <p align="center"><strong>Output</strong></p>
-<p style="font-size:30px"><strong>
+<p style="font-size:30px"><h4>
 
   ```
   [1, 2, 3, 4]
   ```
-  
-  </strong></p>
+
+  </h4></p>
 </td>
 </tr>
 </table>
