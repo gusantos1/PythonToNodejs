@@ -26,13 +26,13 @@
 </td>
 <td>
 <p align="center"><strong>Output</strong></p>
-<p style="font-size:30px"><h3>
+<p style="font-size:30px"><h4>
 
   ```
   [1, 2, 3, 4]
   ```
 
-  </h3></p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -62,12 +62,13 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
 
   ```
   [ 1, 2 ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -97,12 +98,13 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
 
   ```
   [ 6, 2, 3 ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -132,12 +134,13 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
 
   ```
   [ 1, 2 ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -167,12 +170,14 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
 
   ```
   [ 1, 2, 'Testando', 3, 4 ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -204,12 +209,13 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
 
   ```
   [ 'Carro', 'Moto', 'Cavalo', 'Gato' ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
@@ -239,12 +245,13 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output</strong>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
 
   ```
   [ 'Moto', 'Cavalo' ]
   ```
-  </p>
+  </h4></p>
 </td>
 </tr>
 </table>
