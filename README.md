@@ -25,8 +25,8 @@
   ```
 </td>
 <td>
-<p align="center"><strong>Output
-
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><strong>
   ```
   [1, 2, 3, 4]
   ```
