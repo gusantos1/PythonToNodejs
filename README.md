@@ -3,7 +3,7 @@
 # Listas - Arrays <img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/books.svg" width="30">
 
 <div align="center">
-<h2>list.append ↔ array.push</h2>
+<h2>list.append ↔ Array.push</h2>
 <table>
 <tr>
 <td>
@@ -40,7 +40,7 @@
 
 
 <div align="center">
-<h2>list.pop ↔ array.pop</h2>
+<h2>list.pop ↔ Array.pop</h2>
 <table>
 <tr>
 <td>
@@ -76,7 +76,7 @@
 
 
 <div align="center">
-<h2>list[index] ↔ array[index]</h2>
+<h2>list[index] ↔ Array[index]</h2>
 <table>
 <tr>
 <td>
@@ -112,7 +112,7 @@
 
 
 <div align="center">
-<h2>del list[index] ↔ delete array[index]</h2>
+<h2>del list[index] ↔ delete Array[index]</h2>
 <table>
 <tr>
 <td>
@@ -148,7 +148,7 @@
 
 
 <div align="center">
-<h2>list.insert(index, valor) ↔ array.splice(index, 0, valor)</h2>
+<h2>list.insert(index, valor) ↔ Array.splice(index, 0, valor)</h2>
 <table>
 <tr>
 <td>
@@ -185,7 +185,7 @@
 
 
 <div align="center">
-<h2>list + list = nova_list ↔ Array.concat(outra array)</h2>
+<h2>list + list = nova_list ↔ Array.concat(outra Array)</h2>
 <table>
 <tr>
 <td>
@@ -259,7 +259,7 @@
 
 
 <div align="center">
-<h2>list.index(valor) ↔ array.indexOf(valor)</h2>
+<h2><strong>Cópia RASA de matrizes</strong><br>list[:] ↔ Array.slice()<br>list.copy() ↔ [... Array]</h2>
 <table>
 <tr>
 <td>
@@ -267,8 +267,14 @@
 
   ```python
   lista = ['Carro', 'Moto','Cavalo', 'Gato']
-  valor = lista.index('Moto')
-  print(valor)
+  copia = lista[:]
+  print(copia)
+  ```
+
+  ```python
+  lista = ['Carro', 'Moto','Cavalo', 'Gato']
+  copia = lista.copy()
+  print(copia)
   ```
 </td>
 <td>
@@ -276,8 +282,14 @@
 
   ```javascript
   const lista = ['Carro', 'Moto','Cavalo', 'Gato'];
-  const valor = lista.indexOf('Moto');
-  console.log(valor);
+  const copia = lista.slice();
+  console.log(copia);
+  ```
+
+  ```javascript
+  const lista = ['Carro', 'Moto','Cavalo', 'Gato'];
+  const copia = [... lista];
+  console.log(copia);
   ```
 </td>
 <td>
@@ -285,7 +297,45 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [1]
+  ['Carro', 'Moto','Cavalo', 'Gato']
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
+<h2><strong>Cópia PROFUNDA de matrizes</strong><br>deepcopy(list) ↔ Array.from(Array)</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = ['Carro', 'Moto','Cavalo', 'Gato']
+  copia = deepcopy(lista)
+  print(copia)
+  ```
+
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = ['Carro', 'Moto','Cavalo', 'Gato'];
+  const copia = Array.from(lista);
+  console.log(copia);
+  ```
+
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  ['Carro', 'Moto','Cavalo', 'Gato']
   ```
   </h4></p>
 </td>
