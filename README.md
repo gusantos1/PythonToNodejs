@@ -223,7 +223,7 @@
 
 
 <div align="center">
-<h2><h1>Fatiamento</h1><br>list[start:stop] ↔ Array.slice(start, stop)</h2>
+<h2><strong>Fatiamento</strong><br>list[start:stop] ↔ Array.slice(start, stop)</h2>
 <table>
 <tr>
 <td>
