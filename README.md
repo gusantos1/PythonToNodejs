@@ -257,3 +257,42 @@
 </table>
 </div>
 
+
+<div align="center">
+<h2>list.index(valor) ↔ array.indexOf(valor)</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = ['Carro', 'Moto','Cavalo', 'Gato']
+  valor = lista.index('Moto')
+  print(valor)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = ['Carro', 'Moto','Cavalo', 'Gato'];
+  const valor = lista.indexOf('Moto');
+  console.log(valor);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  [1]
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
