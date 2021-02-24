@@ -66,7 +66,7 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [ 1, 2 ]
+  [1, 2]
   ```
   </h4></p>
 </td>
@@ -102,7 +102,7 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [ 6, 2, 3 ]
+  [6, 2, 3]
   ```
   </h4></p>
 </td>
@@ -138,7 +138,7 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [ 1, 2 ]
+  [1, 2]
   ```
   </h4></p>
 </td>
@@ -155,7 +155,7 @@
 <p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
 
   ```python
-  lista = [1, 2 , 3]
+  lista = [1, 2 , 3, 4]
   lista.insert(2, 'Testando')
   print(lista)
   ```
@@ -164,7 +164,7 @@
 <p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
 
   ```javascript
-  const lista = [1, 2 , 3];
+  const lista = [1, 2 , 3, 4];
   lista.splice(2, 0, 'Testando');
   console.log(lista);
   ```
@@ -175,7 +175,7 @@
 
 
   ```
-  [ 1, 2, 'Testando', 3, 4 ]
+  [1, 2, 'Testando', 3, 4]
   ```
   </h4></p>
 </td>
@@ -213,7 +213,7 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [ 'Carro', 'Moto', 'Cavalo', 'Gato' ]
+  ['Carro', 'Moto', 'Cavalo', 'Gato']
   ```
   </h4></p>
 </td>
@@ -223,7 +223,7 @@
 
 
 <div align="center">
-<h2>list[start:stop] ↔ Array.slice(start, stop)</h2>
+<h2>Fatiamento<br>list[start:stop] ↔ Array.slice(start, stop)</h2>
 <table>
 <tr>
 <td>
@@ -249,7 +249,7 @@
 <p style="font-size:30px"><h4>
 
   ```
-  [ 'Moto', 'Cavalo' ]
+  ['Moto', 'Cavalo']
   ```
   </h4></p>
 </td>
