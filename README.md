@@ -185,7 +185,7 @@
 
 
 <div align="center">
-<h2>list + list = nova_list ↔ Array.concat(outra Array)</h2>
+<h2>list.extend = nova_list ↔ Array.concat(outra Array)</h2>
 <table>
 <tr>
 <td>
@@ -194,7 +194,7 @@
   ```python
   lista1 = ['Carro', 'Moto']
   lista2 = ['Cavalo', 'Gato']
-  lista3 = lista1 + lista2
+  lista1.extend(lista2)
   print(lista3)
   ```
 </td>
