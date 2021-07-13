@@ -112,6 +112,187 @@
 </div>
 
 <div align="center">
+<h2>list.clear ↔ Array.length 0</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [1, 2 , 3]
+  lista.clear()
+  print(lista)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [1, 2 , 3];
+  lista.length = 0;
+  console.log(lista);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  []
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
+<h2>list.count ↔ Array.filter / length</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [1, 2, 3, 3]
+  print(lista.count(3))
+  #repetidos = len(list(filter(lambda x: x == 3, lista)))
+  #print(repetidos)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [1, 2, 3, 3];
+  const repetido = lista.filter(x => x === 3).length;
+  console.log(repetido);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  2
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
+<h2>list.index ↔ Array.indexOf</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [1, 2, 3, 6]
+  index = lista.index(6)
+  print(index)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [1, 2, 3, 6];
+  const index = lista.indexOf(6);
+  console.log(index);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  3
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
+<h2>list.index ↔ Array.indexOf</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [6, 3, 1, 2]
+  lista.sort()
+  print(lista)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [6, 3, 1, 2];
+  lista.sort()
+  console.log(lista);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  [1, 2, 3, 6]
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
+<h2>list.sort(reverse=True) ↔ Array.reverse(array.sort())</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [6, 3, 1, 2]
+  lista.sort(reverse=True)
+  print(lista)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [6, 3, 1, 2];
+  lista.reverse(lista.sort());
+  console.log(lista);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  [ 6, 3, 2, 1 ]
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div align="center">
 <h2>list[index] ↔ Array[index]</h2>
 <table>
 <tr>
