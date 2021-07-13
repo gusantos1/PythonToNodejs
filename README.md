@@ -76,6 +76,42 @@
 
 
 <div align="center">
+<h2>list.remove ↔ Array.splice</h2>
+<table>
+<tr>
+<td>
+<p align="center"><img align="center" src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/python-logo.png"width="100"></p>
+
+  ```python
+  lista = [1, 2 , 3]
+  lista.remove(2)
+  print(lista)
+  ```
+</td>
+<td>
+<p align="center"><img src="https://github.com/gusantos1/PythonToNodejs/blob/main/img/nodejs-logo.png"width="100"></p>
+
+  ```javascript
+  const lista = [1, 2 , 3];
+  const index = lista.indexOf(2);
+  lista.splice(index, 1)
+  console.log(lista);
+  ```
+</td>
+<td>
+<p align="center"><strong>Output</strong></p>
+<p style="font-size:30px"><h4>
+
+  ```
+  [1, 3]
+  ```
+  </h4></p>
+</td>
+</tr>
+</table>
+</div>
+
+<div align="center">
 <h2>list[index] ↔ Array[index]</h2>
 <table>
 <tr>
@@ -342,7 +378,3 @@
 </tr>
 </table>
 </div>
-
-
-
-
